@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import * as d3 from 'd3'
 import censusData from '../censusData.json'
 import usaMap from '../usaMap.json'
-import { mesh, feature } from 'topojson'
+import { mesh, feature } from 'topojson-client'
 import Legend from '../Legend'
 import axios from 'axios'
 
