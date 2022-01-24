@@ -1,6 +1,9 @@
 {
   "name": "d3-pop-map",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.18.1"
+  },
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
