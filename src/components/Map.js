@@ -197,6 +197,7 @@ const Map = () => {
     return (
         <div id='d3map'>
             <h3 id='title'>2019 US Population</h3>
+            <h6>{'('}Hover over to see name and exact population{')'}</h6>
             {county==='' ? <form className='race-selector'>
                 <label>Filter by Race: </label>
                 <select onChange={(event)=> {
