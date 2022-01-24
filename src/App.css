@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.race-selector {
+  padding: 10px;
+}
+
+.states:hover {
+  fill-opacity: .7;
+}
+
+.counties:hover {
+  fill-opacity: .7;
+}
+
+#title {
+  margin: 0%;
+}
+
+.noSelector {
+  margin: 0%;
+  padding: 10px;
+}
+
